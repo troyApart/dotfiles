@@ -1,0 +1,30 @@
+[user]
+        name = Troy Partridge
+        email = troy.partridge@sendgrid.com
+
+[alias]
+        st = status
+        co = checkout
+        br = branch
+
+[color]
+        diff = auto
+        status = auto
+        branch = auto
+        interactive = auto
+        ui = true
+        pager = true
+
+[color "status"]
+        added = green
+        changed = red bold
+        untracked = magenta bold
+
+[color "branch"]
+        remote = yellow
+
+[core]
+  editor = /usr/bin/vim
+
+[url "git@github.com:"]
+  insteadOf = https://github.com/
